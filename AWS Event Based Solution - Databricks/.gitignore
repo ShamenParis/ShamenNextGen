@@ -1,0 +1,15 @@
+.vscode
+my-secrets.txt
+.DS_Store
+.env
+.env.*
+!.env.example
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+**/.terraform/
+demo-project/tfplan
+demo-project/lambda.zip
